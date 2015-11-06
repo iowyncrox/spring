@@ -29,6 +29,7 @@ public class HomeController {
 		System.out.println("commit two");
 		System.out.println("alpha one");
 		System.out.println("alpha two");
+		System.out.println("alpha three");
 		
 		Date date = new Date();
 		DateFormat dateFormat = DateFormat.getDateTimeInstance(DateFormat.LONG, DateFormat.LONG, locale);
