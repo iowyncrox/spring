@@ -25,6 +25,12 @@ public class HomeController {
 	@RequestMapping(value = "/", method = RequestMethod.GET)
 	public String home(Locale locale, Model model) {
 		logger.info("Welcome home! The client locale is {}.", locale);
+		System.out.println("commit one");
+		System.out.println("commit two");
+		System.out.println("alpha one");
+		System.out.println("alpha two");
+		System.out.println("alpha three");
+		System.out.println("alpha four");
 		
 		Date date = new Date();
 		DateFormat dateFormat = DateFormat.getDateTimeInstance(DateFormat.LONG, DateFormat.LONG, locale);
