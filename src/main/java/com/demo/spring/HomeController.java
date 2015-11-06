@@ -30,6 +30,7 @@ public class HomeController {
 		System.out.println("alpha one");
 		System.out.println("alpha two");
 		System.out.println("alpha three");
+		System.out.println("alpha four");
 		
 		Date date = new Date();
 		DateFormat dateFormat = DateFormat.getDateTimeInstance(DateFormat.LONG, DateFormat.LONG, locale);
