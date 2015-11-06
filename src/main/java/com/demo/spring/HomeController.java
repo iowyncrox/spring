@@ -27,6 +27,7 @@ public class HomeController {
 		logger.info("Welcome home! The client locale is {}.", locale);
 		System.out.println("commit one");
 		System.out.println("commit two");
+		SYstem.out.println("commit three");
 		
 		Date date = new Date();
 		DateFormat dateFormat = DateFormat.getDateTimeInstance(DateFormat.LONG, DateFormat.LONG, locale);
